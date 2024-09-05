@@ -16,7 +16,7 @@ class ContasIterador:
             conta = self.contas[self._index]
             return f"""\
             Agência:\t{conta.agencia}
-            Número:\t\t{conta.numero}
+            Conta:\t\t{conta.numero}
             Titular:\t{conta.cliente.nome}
             Saldo:\t\tR$ {conta.saldo:.2f}
         """
